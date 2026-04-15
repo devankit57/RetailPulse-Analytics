@@ -1,0 +1,30 @@
+2026-04-15 17:14:36,650 | INFO | retailpulse.refresh | RetailPulse refresh started.
+2026-04-15 17:14:36,655 | ERROR | retailpulse.refresh | RetailPulse refresh failed: to_datetime() got an unexpected keyword argument 'infer_datetime_format'
+Traceback (most recent call last):
+  File "E:\Data Analysis\New folder\RetailPulse-Analytics\scripts\refresh.py", line 66, in main
+    run_refresh()
+    ~~~~~~~~~~~^^
+  File "E:\Data Analysis\New folder\RetailPulse-Analytics\scripts\refresh.py", line 52, in run_refresh
+    cleaned_df = run_etl(DEFAULT_INPUT_PATH, DEFAULT_OUTPUT_PATH)
+  File "E:\Data Analysis\New folder\RetailPulse-Analytics\scripts\etl.py", line 118, in run_etl
+    cleaned_df = clean_data(raw_df)
+  File "E:\Data Analysis\New folder\RetailPulse-Analytics\scripts\etl.py", line 58, in clean_data
+    cleaned_df["Order Date"] = pd.to_datetime(
+                               ~~~~~~~~~~~~~~^
+        cleaned_df["Order Date"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        errors="coerce",
+        ^^^^^^^^^^^^^^^^
+        infer_datetime_format=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: to_datetime() got an unexpected keyword argument 'infer_datetime_format'
+2026-04-15 17:14:47,944 | INFO | retailpulse.refresh | RetailPulse refresh started.
+2026-04-15 17:14:47,959 | INFO | retailpulse.refresh | ETL completed with 12 records.
+2026-04-15 17:14:48,065 | INFO | retailpulse.refresh | Analysis completed and generated 3 dashboard dataset(s).
+2026-04-15 17:14:48,065 | INFO | retailpulse.refresh | RetailPulse refresh finished successfully.
+2026-04-15 17:22:09,824 | INFO | retailpulse.refresh | RetailPulse refresh started.
+2026-04-15 17:22:10,017 | INFO | retailpulse.refresh | ETL completed with 12 records.
+2026-04-15 17:22:10,044 | INFO | retailpulse.refresh | Analysis completed and generated 3 dashboard dataset(s).
+2026-04-15 17:22:10,044 | INFO | retailpulse.refresh | RetailPulse refresh finished successfully.

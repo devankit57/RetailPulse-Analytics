@@ -1,0 +1,13 @@
+Order Date,Sales,Profit,Region,Category,Sub-Category,Customer Segment
+2025-01-05,420.50,65.20,West,Technology,Phones,Consumer
+2025-01-08,180.00,22.40,East,Office Supplies,Binders,Corporate
+2025-01-12,950.00,140.00,South,Furniture,Chairs,Home Office
+2025-01-20,120.75,12.10,Central,Office Supplies,Paper,Consumer
+2025-02-03,760.00,118.50,West,Technology,Accessories,Corporate
+2025-02-10,340.40,41.25,East,Furniture,Tables,Consumer
+2025-02-14,89.99,9.50,South,Office Supplies,Storage,Home Office
+2025-02-28,1500.00,210.00,West,Technology,Copiers,Corporate
+2025-03-04,610.30,72.18,Central,Furniture,Bookcases,Consumer
+2025-03-11,275.20,30.00,East,Office Supplies,Appliances,Corporate
+2025-03-18,820.00,115.00,South,Technology,Phones,Consumer
+2025-03-29,430.00,58.60,West,Furniture,Furnishings,Home Office
