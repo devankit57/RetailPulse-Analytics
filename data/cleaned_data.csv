@@ -1,6 +1,6 @@
 Order Date,Sales,Profit,Region,Category,Sub-Category,Customer Segment,Month,Profit Margin
 2025-01-05,420.5,65.2,West,Technology,Phones,Consumer,2025-01,0.1551
-2025-01-08,180.0,22.4,East,Office Supplies,Binders,Corporate,2025-01,0.1244
+2025-01-08,180.0,22.4,East,Office Supplies,Binders,Corporate,2025-01,0.1244 
 2025-01-12,950.0,140.0,South,Furniture,Chairs,Home Office,2025-01,0.1474
 2025-01-20,120.75,12.1,Central,Office Supplies,Paper,Consumer,2025-01,0.1002
 2025-02-03,760.0,118.5,West,Technology,Accessories,Corporate,2025-02,0.1559
