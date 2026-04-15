@@ -1,6 +1,6 @@
 """ETL pipeline for preparing retail sales data for analytics."""
 
-from __future__ import annotations
+from __future__ import annotations 
 
 import argparse
 import logging
